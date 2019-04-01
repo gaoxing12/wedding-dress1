@@ -4,12 +4,12 @@
 	min-width: 400px;
 	max-width: 720px;
 	background: yellow;
-	height: 4000px;
+	height: 6000px;
 }
 /*头部的微信询问部分*/
 .ls_holle{
 	width: 100%;
-	height:4%;
+	height:92px;
 	background: #fff;
 	
 }
@@ -19,6 +19,7 @@
 	min-width: 400px;
 	max-width: 720px;
 	top: 0px;
+	z-index: 5;
 	/*left: 0px;*/
 }
 .ls_logo{
@@ -165,10 +166,257 @@
 .look_more{	
 	height: 70px;
 	line-height: 70px;
-	background: red;
+	background: #fff;
 	box-sizing: border-box;
 	margin: 0px 2.8%;
 	border: 1px solid #CBAB72;
 	text-align: center;
-	font-size: 30px;
+	font-size: 26px;
+}
+.look_more>a{
+	display: block;
+	color: #CBAB72;
+}
+.look_more>a:hover{
+	background: #CBAB72;
+	color: #fff;
+}
+/*全球旅拍*/
+.global_travel{
+	text-align: center;
+}
+.global_travel img{
+	width: 100%;
+}
+.global_travel img#travel_icon{
+	width: 46.5%;
+	/*margin: 0 auto;*/
+}
+.styleImg{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.global_lunbo{
+	margin-bottom: 30px;
+}
+/*客片欣赏*/
+.guest{
+	margin-bottom: 70px;
+}
+/*报价部分*/
+.offerBox{
+	height: 800px;
+	background: #edf0f8;
+	padding: 0px 40px;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+.offer_kuang{
+	/*height: 300px;*/
+	width: 100%;	
+	background: #fff;
+	display:block;
+	
+}
+/*头部*/
+.offer_header{
+	padding: 19px 0px;
+	text-align: center;
+	height: auto;
+	min-height: 64px;
+	background-color: #3b67a0;
+	background-image: url(../img/baojia.jpg);   
+    background-position:  50%;
+    background-repeat: no-repeat;
+    background-size: 100%;  	
+}
+.offer_header>p{
+	font-size: 27px;
+	padding-bottom: 15px;
+}
+.offer_header>span{
+	
+	color: #d55130;
+	font-size: 20px;
+}
+/*选择你喜欢的类型*/
+.choose_you_like{
+	padding-bottom: 20px;
+}
+.choose_you_like>img{
+	width: 100%;
+}
+.choose_style{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.choose_style:hover{
+	background: #f8f8f9;
+}
+.choose_style>label{
+	text-align: center;
+	padding: 2px;
+	box-sizing: border-box;
+	width: 46%;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 6px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.choose_style>label>li>img{
+	width: 100%;
+		margin-bottom: 10px;
+}
+.choose_style>label>li{
+	position: relative;
+}
+.choose_style>label>li>p{
+	width: 30px;
+	height: 30px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.choose_style>label>li>p>span{
+	color: #d3cfd0;
+	font-size: 24px;	
+}
+/*保持登录*/
+.choose_style>label>li>input[type="checkbox"]{
+display: inline-block;  
+vertical-align: middle;  
+margin-left: 5px;
+-webkit-appearance: none;  
+border: 0;  
+outline: 0 !important;  
+line-height: 20px;  
+color: #d8d8d8;
+}
+.choose_style>label>li>input[type=checkbox]:after  {  
+content: "";  
+display:block;  
+width: 18px;  
+height: 18px;  
+text-align: center;   
+font-size: 20px;
+border: 1px solid #c5c5c6;     
+background-color: #fff;  
+box-sizing:border-box;  
+}
+.choose_style>label>li>input[type=checkbox]:hover:after{
+	border: 1px solid #2d8fd9;
+}
+.choose_style>label>li>input[type=checkbox]:checked:after  {  
+background-image:url(../img/gou.png);
+background-position: 50%;
+border: 1px solid #2d8fd9; 
+}
+/*保持登录结束*/
+.promise{
+	text-align: center;
+}
+.promise>img{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.promise>p{
+	color: #2c3e50;
+	font-size: 16px;
+}
+/****************************/
+.get_quotes{
+	
+	background: pink;
+}
+.get_quotes>li{
+	position: relative;
+	padding: 18px 30px;
+	box-sizing: border-box;
+}
+.get_quotes>li>p{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.get_quotes>li:hover{
+	background-color: #f8f8f9;	
+}
+.quotes_money{
+	display: flex;
+}
+.quotes_money>li{	
+	/*text-align: center;*/
+	flex: 1;
+}
+/*radio按钮的样式*/
+.quotes_money>li>input[type="checkbox"]{
+display: inline-block;  
+vertical-align: middle;  
+margin-left: 5px;
+-webkit-appearance: none;  
+border: 0;  
+outline: 0 !important;  
+line-height: 20px;  
+color: #d8d8d8;
+}
+.quotes_money>li>input[type='checkbox']:after  {  
+content: "";  
+display:block;  
+width: 18px;  
+height: 18px;  
+text-align: center;   
+font-size: 20px;
+border: 1px solid #c5c5c6;     
+background-color: #fff;  
+box-sizing:border-box;  
+border-radius: 50%;
+}
+.quotes_money>li>input[type='checkbox']:hover:after{
+	border: 1px solid #2d8fd9;
+}
+.quotes_money>li>input[type='checkbox']:checked:after  {  
+background-image:url(../img/yuan.png);
+background-repeat: no-repeat;
+background-position: 50%;
+border: 1px solid #2d8fd9; 
+}
+/*************************/
+.get_quotes>li>input[type="text"]{
+	width: 72%;
+	height: 38px;
+	border: 1px solid #d3d3d3;
+	box-sizing: border-box;
+	padding-left: 40px;
+}
+.get_quotes>li>input[type="text"]:focus{
+	border: 1px solid #2d8fd9;
+}
+.get_quotes>li>input[type="text"]#weixin{
+	width: 88%;
+}
+.get_quotes>li>span.yonghu{
+	position: absolute;
+    bottom: 21px;
+    left: 37px;
+    font-size: 26px;
+    color: #81bce8;
+}
+#submit_baojia{
+	display: block;
+	width: 96px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	background: #3B67A0;
+}
+.footer>img{
+	width: 100%;
 }
