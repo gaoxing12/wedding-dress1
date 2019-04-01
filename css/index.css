@@ -1,0 +1,174 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	min-width: 400px;
+	max-width: 720px;
+	background: yellow;
+	height: 4000px;
+}
+/*头部的微信询问部分*/
+.ls_holle{
+	width: 100%;
+	height:4%;
+	background: #fff;
+	
+}
+.ls_holle>a>img{
+	width: 100%;
+	position: fixed;
+	min-width: 400px;
+	max-width: 720px;
+	top: 0px;
+	/*left: 0px;*/
+}
+.ls_logo{
+	background: #222222;
+	display: flex;
+	/*height:5%;*/
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+.ls_logo>a:nth-child(1){
+	/*background: red;*/
+	flex: 1;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+.ls_logo>a:nth-child(1):hover{
+	background: #666666;
+}
+.ls_logo>a:nth-child(2){
+	/*background: greenyellow;*/
+	flex: 6;
+}
+.ls_logo>a:nth-child(3){
+	/*background: red;*/
+	flex: 1;
+}
+/*导航条*/
+.ls_nav{
+	display: flex;
+	margin-top: 38px;
+	border-top: 1px solid #fafafa;
+}
+.ls_nav>li{
+	/*display: block;*/
+	height: 76px;
+	flex: 1;
+	background: red;
+}
+.ls_nav>li>a{
+	text-align: center;
+	display: block;
+	height: 76px;
+	line-height: 76px;
+	color: #212121;
+	background: pink;
+	font-size: 30px;
+}
+.ls_nav>li>a:hover,.ls_nav>li:nth-child(1)>a{
+	color: #fff;
+	background: #cbab72;
+}
+/*banner部分*/
+.ls_banner img{
+	width: 100%;
+}
+/*不从众，方可出众*/
+.superior{
+	text-align: center;
+	background: pink;
+	padding-top: 78px;
+	padding-bottom: 70px;
+}
+.superior>p{
+	width: 80%;
+	/*background: red;*/
+	font-size: 20px;
+	margin: 20px auto;	
+}
+.new_active{
+	display: flex;
+	text-align: center;
+	
+}
+.new_active>a{
+	flex: 1;
+	color: #fff;
+	background: #cbab72;
+}
+.new_active>a>p:nth-child(2){
+	font-size: 45px;
+	font-family: "方正姚体";
+	letter-spacing: -8px;
+}
+.new_active>a>p:nth-child(3){
+	font-size: 10px;
+	font-family: "方正姚体";
+	padding-top: 10px;
+	padding-bottom: 28px;
+}
+.new_active>a>.ls_icon{
+	width: 63px;
+	height: 63px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 63px;
+	margin: 0 auto;
+	margin-top: 24px;	
+}
+.new_active>a>.ls_icon>span{
+	font-size: 37px;
+}
+/*原创风格*/
+
+.original_style>img{
+	width: 100%;
+	margin-top: 67px;
+	margin-bottom: 25px;
+}
+.original_style>.styleBox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.original_style>.styleBox>li{
+	width: 46.5%;
+	background: paleturquoise;
+	margin-bottom: 34px;
+}
+.original_style>.styleBox>li:nth-child(1),.original_style>.styleBox>li:nth-child(3){
+	margin-left: 2.8%;
+	margin-right: 1%;
+}
+.original_style>.styleBox>li:nth-child(2),.original_style>.styleBox>li:nth-child(4){
+	margin-left: 0;
+	margin-right: 2.8%;
+}
+.styleBox{
+	text-align: center;
+}
+.styleBox>li>a>div{
+	font-size:35px;
+	color: #444;
+	font-weight: bold;
+	padding: 15px 0;
+}
+.styleBox a:hover>div{
+	color: #cbab72;
+}
+/*查看更多*/
+.look_more{	
+	height: 70px;
+	line-height: 70px;
+	background: red;
+	box-sizing: border-box;
+	margin: 0px 2.8%;
+	border: 1px solid #CBAB72;
+	text-align: center;
+	font-size: 30px;
+}
