@@ -24,8 +24,8 @@
 		</div>
 		<!--导航条-->
 		<ul class="ls_nav">
-			<li><a href="#">首页</a></li>
-			<li><a href="#">活动</a></li>
+			<li class="actives"><a href="#">首页</a></li>
+			<li><a href="html/active.html">活动</a></li>
 			<li><a href="#">作品</a></li>
 			<li><a href="#">客片</a></li>
 			<li><a href="#">旅拍</a></li>
@@ -77,7 +77,7 @@
 			<img src="img/ert (1).jpg" class="styleImg"/>
 			<ul class="styleBox">
 				<li>
-					<a href="#">
+					<a title="趣爱圣诞" href="#">
 						<img src="img/original1.jpg" width="100%"/>
 						<div>[趣爱圣诞]</div>
 						<p>—SHOWCASE—</p>
@@ -85,7 +85,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="温妮之约" href="#">
 						<img src="img/original2.jpg" width="100%"/>
 						<div>[温妮之约]</div>
 						<p>—SHOWCASE—</p>
@@ -93,7 +93,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="温妮莎之恋" href="#">
 						<img src="img/original4.jpg" width="100%"/>
 						<div>[温妮莎之恋]</div>
 						<p>—SHOWCASE—</p>
@@ -101,7 +101,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="安娜嫁日" href="#">
 						<img src="img/original3.jpg" width="100%"/>
 						<div>[安娜嫁日]</div>
 						<p>—SHOWCASE—</p>
@@ -128,7 +128,7 @@
 			<img src="img/ert (8).jpg" class="styleImg"/>
 			<ul class="styleBox">
 				<li>
-					<a href="#">
+					<a title="三月第四季" href="#">
 						<img src="img/original5.jpg" width="100%"/>
 						<div>[三月第四季]</div>
 						<p>—SHOWCASE—</p>
@@ -136,7 +136,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="三月第三季" href="#">
 						<img src="img/original6.jpg" width="100%"/>
 						<div>[三月第三季]</div>
 						<p>—SHOWCASE—</p>
@@ -144,7 +144,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="三月第二季" href="#">
 						<img src="img/original7.jpg" width="100%"/>
 						<div>[三月第二季]</div>
 						<p>—SHOWCASE—</p>
@@ -152,7 +152,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a title="三月第一季" href="#">
 						<img src="img/original8.jpg" width="100%"/>
 						<div>[三月第一季]</div>
 						<p>—SHOWCASE—</p>
@@ -240,16 +240,16 @@
 						<li>
 							<p>你的预算</p>
 							<ul class="quotes_money">
-								<li>
-									<input type="checkbox" id="five"/>
-									<label for="five">5000</label>
+								<li>									
+									<input type="radio" id="five" name="money"/>
+									<label for="five">5000</label>																		
 								</li>
 								<li>
-									<input type="checkbox" id="eight"/>
+									<input type="radio" id="eight" name="money"/>
 									<label for="eight">5000~8000</label>
 								</li>
 								<li>
-									<input type="checkbox" id="eight_more"/>
+									<input type="radio" id="eight_more" name="money"/>
 									<label for="eight_more">8000以上</label>
 								</li>
 							</ul>
@@ -257,20 +257,20 @@
 						<li>
 							<p>你的婚期<span>*</span></p>
 							<ul class="quotes_money">
-								<li>
-									<input type="checkbox" id="three_mouth"/>
-									<label for="three_mouth" style="background: yellow;">三个月内 （特急）</label>
+								<li>							
+									<input type="radio" id="three_mouth" name="hunQi"/>											
+									<label for="three_mouth">三个月内 （特急）</label>															
 								</li>
 								<li>
-									<input type="checkbox" id="half_year"/>
-									<label for="half_year" style="background: yellow;">半年内 （急）</label>
+									<input type="radio" id="half_year" name="hunQi"/>
+									<label for="half_year">半年内 （急）</label>
 								</li>
 								<li>
-									<input type="checkbox" id="one_y"/>
+									<input type="radio" id="one_y" name="hunQi"/>
 									<label for="one_y">一年内（筹备期）</label>
 								</li>
 								<li>
-									<input type="checkbox" id="tow_y"/>
+									<input type="radio" id="tow_y" name="hunQi"/>
 									<label for="tow_y">两年内（计划中）</label>
 								</li>
 							</ul>
@@ -298,11 +298,26 @@
 				</div>
 			</div>
 			
+			<!--麦克-->
+			<div class="maiKe">
+				<img src="img/maike.png"/>
+				<span>由麦克技术提供支持</span>
+			</div>
 		</div>
 		<div class="footer">
-				<img src="img/IMG_0381.gif"/>
-				<img src="img/m1_r19_c1.jpg"/>
+			<img src="img/IMG_0381.gif"/>
+			<img src="img/m1_r19_c1.jpg"/>
+			<div class="talle">
+				<img src="img/tellb.png"/>
+				<p>公司地址:贵阳市●云岩区●中华中路 大十字时代广场旁（省府路口）</p>
 			</div>
+			<p>
+				版权所有(C)
+				<a href="#">贵阳云岩莱色婚纱摄影服务部 |</a>
+				<a href="#">网站问题反馈</a>
+			</p>
+			<span>Only for you to create the perfect wedding</span>
+		</div>
 	</div>
 </body>
 </html>
